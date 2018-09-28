@@ -11,7 +11,7 @@ try {
     } else {
 
         if ($conn->query($sql)) {
-            header('Location: kategorie.php');
+            header('Location: kategorie');
         }
     }
 } catch (Exception $e) {

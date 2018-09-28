@@ -25,10 +25,10 @@ require '../checkIfLogin.php';
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <img class="img img-fluid" src="../img/logo-uz-footer-pl2.png">
-        <a href="generator.php" class="overlay"><img class="icon" src="../img/icons/token.svg">Generator</a>
-        <a href="kategorie.php" class="overlay"><img class="icon" src="../img/icons/folder.svg">Kategoria</a>
-        <a href="wyniki.php" class="overlay"><img class="icon" src="../img/icons/icon.svg">Wyniki</a>
-        <a href="../logout.php" class="overlay"><img class="icon" src="../img/icons/exit-arrow.svg">Wyloguj</a>
+        <a href="generator" class="overlay"><img class="icon" src="../img/icons/token.svg">Generator</a>
+        <a href="kategorie" class="overlay"><img class="icon" src="../img/icons/folder.svg">Kategoria</a>
+        <a href="wyniki" class="overlay"><img class="icon" src="../img/icons/icon.svg">Wyniki</a>
+        <a href="../logout" class="overlay"><img class="icon" src="../img/icons/exit-arrow.svg">Wyloguj</a>
     </div>
 </div>
 <span style="font-size: 30px; cursor: pointer" onclick="openNav()">&#9776;Menu</span>

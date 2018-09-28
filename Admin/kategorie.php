@@ -5,18 +5,11 @@ include '../checkIfLogin.php';
 <!DOCTYPE html>
 <html>
 <head>
-    <script
-            src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
-    <script
-            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
-            integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
-            crossorigin="anonymous"></script>
-    <link rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
-          integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
-          crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../css/konretnaKategoria.css"
           media="all">
     <meta charset="utf-8">
@@ -27,10 +20,10 @@ include '../checkIfLogin.php';
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <img class="img img-fluid" src="../img/logo-uz-footer-pl2.png">
-        <a href="generator.php" class="overlay"><img class="icon" src="../img/icons/token.svg">Generator</a>
-        <a href="kategorie.php" class="overlay"><img class="icon" src="../img/icons/folder.svg">Kategoria</a>
-        <a href="wyniki.php" class="overlay"><img class="icon" src="../img/icons/icon.svg">Wyniki</a>
-        <a href="../logout.php" class="overlay"><img class="icon" src="../img/icons/exit-arrow.svg">Wyloguj</a>
+        <a href="generator" class="overlay"><img class="icon" src="../img/icons/token.svg">Generator</a>
+        <a href="kategorie" class="overlay"><img class="icon" src="../img/icons/folder.svg">Kategoria</a>
+        <a href="wyniki" class="overlay"><img class="icon" src="../img/icons/icon.svg">Wyniki</a>
+        <a href="../logout" class="overlay"><img class="icon" src="../img/icons/exit-arrow.svg">Wyloguj</a>
     </div>
 </div>
 

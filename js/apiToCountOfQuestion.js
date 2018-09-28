@@ -5,7 +5,7 @@
         var count_of_question = obj.countsOfQuestion;
 
         for (i = 1; i < count_of_question; i++) {
-            document.getElementsByClassName('dotsAll').innerHTML('<span id="dot-' + i + '" class="dots"></span>');
+            $('.dots').document.write('<span id="dot-' + i + '" class="dots"></span>');
         }
 
     }).fail(function () {
