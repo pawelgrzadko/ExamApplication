@@ -1,0 +1,47 @@
+      body{
+        width: 100%;
+        height: 940px;
+        background-image: linear-gradient(to bottom, #00768e, #006686, #00567d, #004672, #003665);
+      }
+      .container{
+        text-align: center;
+        display: block;
+        padding: 200px;
+      }
+      h1{
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Roboto';
+        font-weight: 700;
+      }
+      .password{
+        margin-bottom: 60px;
+        margin-top: 30px;
+
+
+      }
+      input{
+        border-radius: 50px;
+        width: 300px;
+        padding: 15px 45px 15px 30px;
+        border: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        outline: none;
+      }
+      input::placeholder{
+  			color: #a8abaf;
+  		}
+      .submit{
+        width: 130px;
+        padding: 12px;
+        background: #00778f;
+        color: white;
+        cursor: pointer;
+        font-family: 'Roboto';
+        font-weight: 400;
+      }
+      .submit:hover{
+        opacity: 0.6;
+        transition: 1s ease;
+      }

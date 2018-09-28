@@ -1,0 +1,2 @@
+Jaki jest najlepszy język programowania?,Java,PHP,Python,JavaScript,0,1,2
+Czym NIE jest kot?,Zwierzęciem,ssakiem,rybą,koniem,2,3
